@@ -9,7 +9,7 @@ show_best_found = True    #shows result of BFS (that is confined to explored squ
 
 
 # Mouse:
-time_taken_per_step = 0.3 #inverse relation to speed of mouse. (0 is fine)
+time_taken_per_step = 0.4 #inverse relation to speed of mouse. (0 is fine)
 laps_to_take = 1000   #times the mouse will complete maze
 print_floodfill_after_each_move = False   #small maze and very slow mouse advised
 print_floodfill_grid_at_end_of_run = False  #makes more sense for smaller mazes
@@ -17,8 +17,8 @@ print_floodfill_grid_at_end_of_run = False  #makes more sense for smaller mazes
 
 
 # Maze Generation
-seed = "Emma"
-maze_size = 30 #size of maze  (bigger than like 50 works but generation slowed by graphics library)
+seed = "EmmaGamb"
+maze_size = 40 #size of maze  (bigger than like 50 works but generation slowed by graphics library)
 directness = 15  #the lower this is, the shorter the path  (must stay positive or 0)
 wall_gaps = 50  #likelihood of gaps in walls: (inverse relationship: chance = 1/wall_gaps)
 straightness = 3   #relates to how long paths try to follow one direction during generation, changes shape of maze a bit
